@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="server-trace-zipkin" target="1.5" />
+      <module name="server-trace-zipkin" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
