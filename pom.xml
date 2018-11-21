@@ -40,6 +40,30 @@
       <artifactId>zipkin-server</artifactId>
     </dependency>
 
+    <!--zipkin stream-->
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-sleuth-zipkin-stream</artifactId>
+    </dependency>
+
+    <!--sleuth-->
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-sleuth</artifactId>
+    </dependency>
+
+    <!--stream binder rabbit-->
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
+    </dependency>
+
+    <!--elasticsearch 后端存储-->
+    <dependency>
+      <groupId>io.zipkin.java</groupId>
+      <artifactId>zipkin-autoconfigure-storage-elasticsearch-http</artifactId>
+    </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

@@ -2,6 +2,7 @@ package com.garyhu;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.sleuth.zipkin.stream.EnableZipkinStreamServer;
 import zipkin.server.EnableZipkinServer;
 
 /**
@@ -10,7 +11,8 @@ import zipkin.server.EnableZipkinServer;
  * @decription:
  */
 @SpringBootApplication
-@EnableZipkinServer
+//@EnableZipkinServer
+@EnableZipkinStreamServer
 public class ZipkinServerApplication {
 
     public static void main(String[] args)throws Exception{

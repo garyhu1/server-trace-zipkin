@@ -1,2 +1,20 @@
 server:
    port: 9411
+spring:
+   application:
+      name: server-trace-zipkin
+   rabbitmq:
+      host: localhost
+      port: 5672
+      username: garyhu
+      password: pass123
+zipkin:
+   # 跟踪数据的存储
+   storage:
+      type: elasticsearch # 设置为elasticsearch
+      elasticsearch:
+         cluster: elasticsearch
+         hosts: http://localhost:9200
+         index: zipkin
+         index-shards: 5
+         index-replicas: 1

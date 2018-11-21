@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.zipkin.java:zipkin-autoconfigure-storage-elasticsearch-http:unknown">
+    <CLASSES>
+      <root url="jar://D:/maven/repository/io/zipkin/java/zipkin-autoconfigure-storage-elasticsearch-http/unknown/zipkin-autoconfigure-storage-elasticsearch-http-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/maven/repository/io/zipkin/java/zipkin-autoconfigure-storage-elasticsearch-http/unknown/zipkin-autoconfigure-storage-elasticsearch-http-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/maven/repository/io/zipkin/java/zipkin-autoconfigure-storage-elasticsearch-http/unknown/zipkin-autoconfigure-storage-elasticsearch-http-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
